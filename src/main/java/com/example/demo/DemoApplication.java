@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Surya says Hello World, I am running Spring application in Containers!";
+        return "Red Hat Welcomes you to this session on OpenShift";
     }
 
     public static void main(String[] args) {
